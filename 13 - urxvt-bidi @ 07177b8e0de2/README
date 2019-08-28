@@ -1,0 +1,67 @@
+NAME	bidi
+
+SITE	http://chipstips.com/?tag=plurxvtbidi
+	http://bitbucket.org/sterlingcamden/urxvt-bidi
+
+AUTHOR	Chip Camden
+
+DATE	December, 2010
+
+DESCRIPTION
+
+Perl extension for rxvt-unicode (aka urxvt) to enable bidirectional
+text display.
+
+
+INSTALLATION
+
+See the man page for urxvtperl(3) for a full discussion of Perl
+extensions.  Enable this extension using one of the methods documented
+there.  For example, you could place the script bidi in
+/usr/local/lib/urxvt/perl, then add the following to .Xdefaults:
+
+URxvt.perl-ext:           default,bidi
+URxvt.bidi.enabled:	  1
+URxvt.keysym.A-0x0062:    perl:bidi toggle show
+
+This enables bidirectional text display, and maps Ctrl+B to toggle
+it and show the resulting state.
+
+
+SYNTAX
+
+As you can see, the user command requires special arguments to indicate
+the desired operation.  Any number of arguments can follow the perl:bidi
+user command, and they will be executed in order.  They are:
+
+on		Turn on bidirectional text display
+off		Turn it off
+toggle		Toggle it
+show		Show a status message indicating the current state
+
+REQUIREMENTS
+
+This extension requires the Text::Bidi perl module
+(http://search.cpan.org/~kamensky/Text-Bidi-0.03/lib/Text/Bidi.pm), as well
+as the fribidi library on which it relies.  On FreeBSD, simply install the
+converters/p5-Text-Bidi port.
+
+
+OPERATION
+
+If bidirectional text display is enabled, then whenever text is added to the
+terminal window (the on_add_lines event), the text will be piped through the
+Text::Bidi log2vis() function to reorder any RTL text found in the display.
+This permanently changes the order of that text in urxvt, so any other urxvt
+extensions which extract the text will see the text in the new order.
+
+Because the transformation only occurs as text is added, changing the
+bidirectional state does not affect text that has already been displayed.
+You would need to redisplay that text to get it re-ordered.  For instance,
+in vi/vim/mutt, etc., a Ctrl-L will do the job.
+
+
+RESOURCES
+
+The "URxvt.bidi.enabled" resource dictates the initial state of bidirectional
+text display.  If 1, it is enabled.  If 0, it is disabled.

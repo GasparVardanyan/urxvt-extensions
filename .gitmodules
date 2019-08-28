@@ -1,0 +1,87 @@
+[submodule "2 - autocomplete-ALL-the-things"]
+	path = 2 - autocomplete-ALL-the-things
+	url = https://github.com/Vifon/autocomplete-ALL-the-things
+[submodule "3 - urxvt-perls"]
+	path = 3 - urxvt-perls
+	url = https://github.com/muennich/urxvt-perls
+[submodule "4 - urxvt-tabbedex"]
+	path = 4 - urxvt-tabbedex
+	url = https://github.com/stepb/urxvt-tabbedex
+[submodule "5 - urxvt-tabbedex"]
+	path = 5 - urxvt-tabbedex
+	url = https://github.com/mina86/urxvt-tabbedex
+[submodule "6 - cdmn"]
+	path = 6 - cdmn
+	url = https://github.com/Jeansen/cdmn
+[submodule "7 - urxvt-config-reload"]
+	path = 7 - urxvt-config-reload
+	url = https://github.com/regnarg/urxvt-config-reload
+[submodule "8 - urxvt-pcon"]
+	path = 8 - urxvt-pcon
+	url = https://github.com/verrens/urxvt-pcon
+[submodule "9 - urxvt-vim-insert"]
+	path = 9 - urxvt-vim-insert
+	url = https://github.com/seletskiy/urxvt-vim-insert
+[submodule "10 - urxvt-scripts"]
+	path = 10 - urxvt-scripts
+	url = https://github.com/pkkolos/urxvt-scripts
+[submodule "11 - urxvt-vtwheel-vte"]
+	path = 11 - urxvt-vtwheel-vte
+	url = https://aur.archlinux.org/urxvt-vtwheel-vte.git/
+[submodule "12 - urxvt-perl-extensions"]
+	path = 12 - urxvt-perl-extensions
+	url = https://github.com/endreszabo/urxvt-perl-extensions
+[submodule "14 - Text-Bidi"]
+	path = 14 - Text-Bidi
+	url = https://github.com/mkamensky/Text-Bidi
+[submodule "15 - urxvt-buffer2vim"]
+	path = 15 - urxvt-buffer2vim
+	url = https://github.com/Kuroneer/urxvt-buffer2vim
+[submodule "16 - urxvt-espeak"]
+	path = 16 - urxvt-espeak
+	url = https://github.com/emugel/urxvt-espeak
+[submodule "17 - urxvt-fifo"]
+	path = 17 - urxvt-fifo
+	url = https://github.com/kovetskiy/urxvt-fifo
+[submodule "18 - urxvt-font-size"]
+	path = 18 - urxvt-font-size
+	url = https://github.com/majutsushi/urxvt-font-size
+[submodule "19 - urxvt-perl"]
+	path = 19 - urxvt-perl
+	url = https://github.com/effigies/urxvt-perl
+[submodule "20 - urxvt-ibus-watch"]
+	path = 20 - urxvt-ibus-watch
+	url = https://github.com/hankei6km/urxvt-ibus-watch
+[submodule "21 - urxvt-man2pdf"]
+	path = 21 - urxvt-man2pdf
+	url = https://github.com/su8/urxvt-man2pdf
+[submodule "22 - urxvt-pasta"]
+	path = 22 - urxvt-pasta
+	url = https://github.com/su8/urxvt-pasta
+[submodule "23 - pinky-urxvt"]
+	path = 23 - pinky-urxvt
+	url = https://github.com/su8/pinky-urxvt
+[submodule "24 - urxvt-encrypt"]
+	path = 24 - urxvt-encrypt
+	url = https://github.com/su8/urxvt-encrypt
+[submodule "25 - urxvt-resize-font"]
+	path = 25 - urxvt-resize-font
+	url = https://github.com/simmel/urxvt-resize-font
+[submodule "26 - urxvt-perls"]
+	path = 26 - urxvt-perls
+	url = https://github.com/johntyree/urxvt-perls
+[submodule "27 - urxvt-selection-open"]
+	path = 27 - urxvt-selection-open
+	url = https://github.com/shyiko/urxvt-selection-open
+[submodule "29 - urlpicker"]
+	path = 29 - urlpicker
+	url = https://github.com/quite/urlpicker
+[submodule "30 - urxvt-vim-scrollback"]
+	path = 30 - urxvt-vim-scrollback
+	url = https://github.com/ervandew/urxvt-vim-scrollback
+[submodule "31 - urxvt-vim-insert"]
+	path = 31 - urxvt-vim-insert
+	url = https://github.com/seletskiy/urxvt-vim-insert
+[submodule "32 - urxvt-xresources-256"]
+	path = 32 - urxvt-xresources-256
+	url = https://github.com/Roliga/urxvt-xresources-256
