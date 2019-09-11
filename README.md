@@ -107,4 +107,7 @@
 ## xresources-256
 * xresources-256 - Perl extension for rxvt-unicode that allows setting all 256 colors via X resources  
 	https://github.com/Roliga/urxvt-xresources-256
+## reactivity
+* reactivity - An rxvt-unicode Perl extension script for monitoring terminal activity, opening buffers in Vim and changing font size on the fly http://cern.ch/jbl/tools/reactivity  
+	https://github.com/jeromebelleman/reactivity
 
